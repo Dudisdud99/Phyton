@@ -8,13 +8,11 @@ maior = a
 
 if b > maior:
     maior = b
-elif c > maior:
+if c > maior:
     maior = c
-elif d > maior:
+if d > maior:
     maior = d
-elif e > maior:
+if e > maior:
     maior = e
-else:
-    print("Inválido")
 
 print(f'O maior é {maior}')

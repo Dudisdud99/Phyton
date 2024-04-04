@@ -1,19 +1,15 @@
-a = int(input('Digite um valor para A: '))
-b = int(input('Digite um valor para B: '))
-c = int(input('Digite um valor para C: '))
-d = int(input('Digite um valor para D: '))
-e = int(input('Digite um valor para E: '))
+x = int(input('Digite um valor para X: '))
+y = int(input('Digite um valor para Y: '))
 
-maior = a
-
-if b > maior:
-    maior = b
-if c > maior:
-    maior = c
-if d > maior:
-    maior = d
-if e > maior:
-    maior = e
+if 0.3*(x+y) > 500:
+    aux = x
+    x = y
+    y = aux
+    print(f'X = {x} e Y = {y}')
+else:
+    if x > y:
+        print(f'O maior é {x}')
+    else:
+        print(f'O maior é {y}')
 
 
-print(f'O maior é {maior}')
