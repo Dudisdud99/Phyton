@@ -1,30 +1,30 @@
-x = input("Digite dia/mes/ano: ")
+x = input("Digite dd/mm/aaaa: ")
 
-x.split("/")
+z = x.split("/")
 
-if x[1] == '01': 
-    x[1] = 'janeiro'
-elif x[1] == '02': 
-    x[1] = 'feverero'
-elif x[1] == '03': 
-    x[1] = 'março'
-elif x[1] == '04': 
-    x[1] = 'abril'
-elif x[1] == '05': 
-    x[1] = 'maio'
-elif x[1] == '06': 
-    x[1] = 'julho'
-elif x[1] == '07': 
-    x[1] = 'junho'
-elif x[1] == '08': 
-    x[1] = 'agosto'
-elif x[1] == '09': 
-    x[1] = 'setembro'
-elif x[1] == '10': 
-    x[1] = 'outubro'
-elif x[1] == '11': 
-    x[1] = 'novembro'
-elif x[1] == '12': 
-    x[1] = 'dezembro'  
+if z[1] == '01': 
+    z[1] = 'janeiro'
+elif z[1] == '02': 
+    z[1] = 'feverero'
+elif z[1] == '03': 
+    z[1] = 'março'
+elif z[1] == '04': 
+    z[1] = 'abril'
+elif z[1] == '05': 
+    z[1] = 'maio'
+elif z[1] == '06': 
+    z[1] = 'julho'
+elif z[1] == '07': 
+    z[1] = 'junho'
+elif z[1] == '08': 
+    z[1] = 'agosto'
+elif z[1] == '09': 
+    z[1] = 'setembro'
+elif z[1] == '10': 
+    z[1] = 'outubro'
+elif z[1] == '11': 
+    z[1] = 'novembro'
+elif z[1] == '12': 
+    z[1] = 'dezembro'
     
-print(f"Vc nasceu em {x[0]} de {x[1]} de {x[2]}")
+print(f"Vc nasceu em {z[0]} de {z[1]} de {z[2]}")

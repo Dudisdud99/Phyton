@@ -1,0 +1,8 @@
+x = input("Digite algo: ")
+spaco = x.count(" ")
+a = x.count("a")
+e = x.count("e")
+i = x.count("i")
+o = x.count("o")
+u = x.count("u")
+print(f"quantidade de espacos: {spaco}\nquantidade de a, e ,i ,o ,u respextivamente: {a},{e},{i},{o},{u}")
